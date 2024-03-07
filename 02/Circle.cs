@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace ConsolePelayo2
 {
-    public class Circle : Geometry
+    public class Circle : Shape
     {
 
         public int Radius { get; set; }

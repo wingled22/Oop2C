@@ -5,9 +5,14 @@ using System.Threading.Tasks;
 
 namespace ConsolePelayo2
 {
-    public class Square : Geometry
+    public class Square : Shape
     {
         public int Side { get; set; }
+
+        //overriden method
+        // public void Calc(){
+        //     Area
+        // }
 
     }
 }
